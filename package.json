@@ -1,14 +1,27 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "orebi-ecommerce-store",
+  "version": "1.0.0",
   "private": true,
+  "description": "A professional, modern e-commerce store built with React, Redux, and Tailwind CSS. Features include product browsing, cart management, and a responsive design.",
+  "keywords": [
+    "ecommerce",
+    "react",
+    "redux",
+    "tailwindcss",
+    "online-store",
+    "shopping"
+  ],
+  "author": "Aitzaz Hassan",
+  "license": "MIT",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@reduxjs/toolkit": "^2.2.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.13",
     "bootstrap": "^5.3.0",
+    "emailjs-com": "^3.2.0",
     "formik": "^2.4.5",
     "framer-motion": "^8.0.2",
     "postcss": "^8.4.20",
@@ -56,9 +69,5 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "tailwindcss": "^3.4.1"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "main": "index.js"
 }
